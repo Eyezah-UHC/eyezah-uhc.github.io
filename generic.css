@@ -40,7 +40,7 @@ body, html {
 	position: absolute;
 	left: calc(50% - 25px);
 	top: calc(50% - 70px);
-	transition: opacity 0.3s;
+	transition: opacity 0.3s, top 0.3s;
 	filter: invert(1);
 	animation: rotate 1s linear infinite;
 }

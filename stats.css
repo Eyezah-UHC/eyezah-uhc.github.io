@@ -16,7 +16,9 @@ h1 span {
 	text-align: center;	
 }
 
-
+#stats-unplayed {
+	font-size: calc(1em + 1.5vw);
+}
 
 #stats-container {
 	text-align: center;
@@ -50,6 +52,8 @@ h1 span {
 
 #stats-img {
 	max-width: 100%;
+	opacity: 0;
+	transition: opacity 1s;
 }
 
 
