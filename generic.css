@@ -1,0 +1,99 @@
+body, html {
+	margin: 0px;
+	font-family: Valorant;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+@font-face {
+  font-family: "Nero";
+  src: url("fonts/Nero.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Valorant";
+  src: url("fonts/Valorant.ttf") format("truetype");
+}
+
+#load-container {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 200vh;
+	background-color: black;
+	z-index: 100;
+	transition: opacity 0.3s, left 0.3s;
+}
+
+#load-img {
+	max-width: 50%;
+	position: absolute;
+	left: 50%;
+	top: 25%;
+	transform: translate(-50%, -50%);
+	transition: opacity 0.3s;
+}
+
+#header {
+	background-color: white;
+}
+
+#header-logo-container {
+	text-align: center;
+	padding-top: 10px;
+}
+
+#header-logo {
+	width: 100%;
+	max-width: 240px;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+#header-links {
+	text-align: center;
+}
+
+#header-links a {
+	display: inline-block;
+	font-size: 2em;
+	margin: 20px;
+	cursor: pointer;
+	color: black;
+	text-decoration: none;
+}
+
+
+
+
+
+#footer {
+	background-color: white;
+	margin-top: 100px;
+}
+
+#footer-logo-container {
+	text-align: center;
+}
+
+#footer-logo {
+	width: 100%;
+	max-width: 100px;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+#footer-links {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#footer-links a {
+	display: inline-block;
+	font-size: 1em;
+	margin: 10px;
+	cursor: pointer;
+	color: black;
+	text-decoration: none;
+}

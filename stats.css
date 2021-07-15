@@ -1,0 +1,124 @@
+h1 {
+	font-size: calc(1.5em + 3vw);
+	text-align: center;
+	font-family: Nero;
+}
+
+h1 span {
+	font-family: Valorant;
+	font-size: 0.9em;
+	vertical-align: middle;
+	padding-bottom: calc(3px + 0.5vw);
+}
+
+#error {
+	font-size: calc(1em + 2vw);
+	text-align: center;	
+}
+
+
+
+#stats-container {
+	text-align: center;
+	word-wrap: break-word;
+}
+
+#stats-left {
+	display: inline-block;
+	width: calc(30% - 10px);
+	min-height: 200px;
+	vertical-align: top;
+}
+
+#stats-right {
+	display: inline-block;
+	width: calc(70% - 10px);
+	vertical-align: top;
+	text-align: left;
+	float: right;
+}
+
+#stats-main span {
+	display: block;
+	font-size: calc(1em + 1.5vw);
+}
+
+#stats-name {
+	font-size: calc(2.5em + 3.5vw);
+	margin: 0px;
+}
+
+#stats-img {
+	max-width: 100%;
+}
+
+
+#stats-form {
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 40px;
+}
+
+#stats-form input[type=text] {
+	width: calc(90% - 150px);
+	font-family: Valorant;
+	border: 2px solid rgb(100,100,100);
+	padding-top: 7px;
+	font-size: 2em;
+}
+
+#stats-form input[type=text]:focus {
+	border: 2px solid black;
+	outline: none;
+	color: black;
+}
+
+#stats-form input[type=submit] {
+	width: 140px;
+	font-family: Valorant;
+	border: 2px solid rgb(100,100,100);
+	padding-top: 7px;
+	background-color: white;
+	font-size: 2em;
+}
+
+#stats-form input[type=submit]:hover {
+	border: 2px solid black;
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+	#stats-form input[type=text] {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+		width: 90%;
+		text-align: center;
+	}
+	
+	#stats-form input[type=text]:focus {
+		text-align: left;
+	}
+	
+	#stats-right {
+		float: none;
+		display: block;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#stats-left {
+		display: block;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#stats-img {
+		max-height: 300px;
+	}
+}

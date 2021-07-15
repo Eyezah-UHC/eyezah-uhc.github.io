@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>UHC Stats</title>
+		<link href="../generic.css" rel="stylesheet" type="text/css" />
+		<link href="../stats.css" rel="stylesheet" type="text/css" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div id="load-container">
+			<img id="load-img" src="../assets/load.jpg"/>
+		</div>
+		<div id="header">
+			<div id="header-logo-container">
+				<a href="../"><img id="header-logo" src="../assets/header.jpg" /></a>
+			</div>
+			<div id="header-links">
+				<a href="../">Home</a>
+				<a href="./">Stats</a>
+			</div>
+		</div>
+		<h1>UHC<span> Stats</span></h1>
+		<form id="stats-form">
+			<input type="text" name="user" placeholder="Enter username" id="stats-form-input" />
+			<input type="submit" value="Submit" />
+		</form>
+		<h3 id="error"></h3>
+		<div id="stats-container">
+			<div id="stats-right">
+				<h4 id="stats-name"></h4>
+				<span id="stats-unplayed"></span>
+				<div id="stats-main">
+					<span id="stats-games"></span>
+					<span id="stats-kd"></span>
+					<br>
+					<span id="stats-wins"></span>
+					<span id="stats-losses"></span>
+				</div>
+			</div>
+			<div id="stats-left">
+				<img id="stats-img" />
+			</div>
+		</div>
+		
+		<div id="footer">
+			<div id="footer-logo-container">
+				<a href="../"><img id="footer-logo" src="../assets/header.jpg" /></a>
+			</div>
+			<div id="footer-links">
+				<a href="../">Home</a>
+				<a href="./">Stats</a>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="../generic.js"></script>
+		<script src="../stats.js"></script>
+	</body>
+</html>
