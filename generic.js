@@ -1,4 +1,4 @@
-var serverLoc = "./";
+var serverLoc = "https://beatsturning.com/games/eyezah-uhc/";
 
 function showPage() {
 	document.getElementById("load-img").style.opacity = 0;
