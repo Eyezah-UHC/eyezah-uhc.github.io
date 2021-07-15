@@ -1,6 +1,6 @@
 function start() {
 	if (getParam("user")) {
-		$.get(serverLoc + "../stats.php?user=" + getParam("user"), function(response) {
+		$.get(serverLoc + "stats.php?user=" + getParam("user"), function(response) {
 			if (response["error"] != undefined) {
 				document.getElementById("error").innerHTML = "No user found.";
 				document.getElementById("stats-container").remove();
