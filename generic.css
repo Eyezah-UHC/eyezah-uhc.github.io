@@ -35,6 +35,21 @@ body, html {
 	transition: opacity 0.3s;
 }
 
+#load-svg {
+	width: 50px;
+	position: absolute;
+	left: calc(50% - 25px);
+	top: calc(50% - 70px);
+	transition: opacity 0.3s;
+	filter: invert(1);
+	animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+	0% {transform: rotate(0deg)}
+	100% {transform: rotate(359deg)}
+}
+
 #header {
 	background-color: white;
 }
